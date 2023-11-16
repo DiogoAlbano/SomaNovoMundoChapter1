@@ -1,0 +1,174 @@
+{
+  "Format": "1.29.3",
+  "CustomLocations": [
+    {
+      "Logname": "Add_testroom",
+      "Name": "Custom_nmtestroom",
+      "FromMapFile": "assets/locations/tmx/FF_testroom.tmx"
+    },
+    {
+      "Logname": "Add_npctroom",
+      "Name": "Custom_nmnpcroom",
+      "FromMapFile": "assets/locations/tmx/FE_npcroom.tmx"
+    },
+    {
+      "Logname": "Add_Custom_MountainLongRoad",
+      "Name": "Custom_MountainLongRoad",
+      "FromMapFile": "assets/locations/tmx/03_MountainLongRoad_base.tmx"
+    },
+    {
+      "Logname": "Add_Custom_BeachRoad",
+      "Name": "Custom_BeachRoad",
+      "FromMapFile": "assets/locations/tmx/09_BeachRoad_base.tmx"
+    },
+    {
+      "Logname": "Add_Custom_TownLake",
+      "Name": "Custom_TownLake",
+      "FromMapFile": "assets/locations/tmx/11_TownLake_base.tmx"
+    },
+    {
+      "Logname": "Add_Custom_MountainTunnel",
+      "Name": "Custom_MountainTunnel",
+      "FromMapFile": "assets/locations/tmx/12_MountainTunnel_base.tmx"
+    },
+    {
+      "Logname": "Add_Custom_ForestShortRoad",
+      "Name": "Custom_ForestShortRoad",
+      "FromMapFile": "assets/locations/tmx/13_ForestShortRoad_base.tmx"
+    },
+    {
+      "Logname": "Add_Custom_TheQueenForest",
+      "Name": "Custom_TheQueenForest",
+      "FromMapFile": "assets/locations/tmx/14_TheQueenForest_base.tmx"
+    }
+  ],
+  "DynamicTokens": [
+    {
+      "Name": "TownWarps",
+      "Value": "127 50 Custom_nmnpcroom 2 1 72 -1 Mountain 36 39 73 -1 Mountain 36 39 74 -1 Mountain 36 39 75 -1 Mountain 36 39 -1 89 Forest 116 25 -1 90 Forest 116 25 -1 91 Forest 116 25 -1 92 Forest 116 25 -1 93 Forest 116 25 53 116 Custom_BeachRoad 2 2 54 116 Custom_BeachRoad 2 2 55 116 Custom_BeachRoad 2 2 56 116 Custom_BeachRoad 2 2"
+    },
+    {
+      "Name": "TownWarpsSVE",
+      "Value": "127 71 Custom_ShearwaterBridge 0 20 127 72 Custom_ShearwaterBridge 0 20 127 73 Custom_ShearwaterBridge 0 20 127 74 Custom_ShearwaterBridge 0 20 127 93 Custom_TownEast 2 20 127 94 Custom_TownEast 2 20 127 95 Custom_TownEast 2 20 -1 52 Custom_GrandpasShedOutside 37 24 -1 53 Custom_GrandpasShedOutside 37 24 -1 54 Custom_GrandpasShedOutside 37 24 -1 55 Custom_GrandpasShedOutside 37 24 -1 56 Custom_GrandpasShedOutside 37 24 35 111 Custom_BlueMoonVineyard 54 27 35 112 Custom_BlueMoonVineyard 54 27 35 113 Custom_BlueMoonVineyard 54 27",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "MountainWarps",
+      "Value": "35 42 Town 73 2 36 42 Town 73 2 37 42 Town 73 2 38 42 Town 73 2 25 27 Mine 18 11 2 -1 Railroad 47 64 3 -1 Railroad 47 64 4 -1 Railroad 47 64 5 -1 Railroad 47 64 -1 27 Custom_MountainLongRoad 47 26 -1 28 Custom_MountainLongRoad 47 26 -1 29 Custom_MountainLongRoad 47 26 -1 30 Custom_MountainLongRoad 47 26"
+    },
+    {
+      "Name": "MountainWarpsSVE",
+      "Value": "78 -1 Custom_AdventurerSummit 32 41 79 -1 Custom_AdventurerSummit 32 41 80 -1 Custom_AdventurerSummit 32 41",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "RailroadWarps",
+      "Value": "46 67 Mountain 3 2 47 67 Mountain 3 2 48 67 Mountain 3 2 49 67 Mountain 3 2 48 -1 Summit 11 28 1 67 Custom_MountainLongRoad 6 2 2 67 Custom_MountainLongRoad 6 2 3 67 Custom_MountainLongRoad 6 2 4 67 Custom_MountainLongRoad 6 2"
+    },
+    {
+      "Name": "MountainLongRoadWarps",
+      "Value": "-1 26 Backwoods 48 12 -1 27 Backwoods 48 12 -1 28 Backwoods 48 12 50 25 Mountain 1 28 50 26 Mountain 1 28 50 27 Mountain 1 28 50 28 Mountain 1 28 5 -1 RailRoad 2 64 6 -1 RailRoad 2 64 7 -1 RailRoad 2 64 8 -1 RailRoad 2 64"
+    },
+    {
+      "Name": "BackwoodsWarps",
+      "Value": "13 40 Farm 40 0 14 40 Farm 40 0 15 40 Farm 40 0 50 28 BusStop 0 8 50 29 BusStop 0 8 50 30 BusStop 0 8 50 31 BusStop 0 8 50 32 BusStop 0 8 22 28 Tunnel 39 9 22 29 Tunnel 39 9 22 30 Tunnel 39 9 22 31 Tunnel 39 9 22 32 Tunnel 39 9 50 11 Custom_MountainLongRoad 2 27 50 12 Custom_MountainLongRoad 2 27 50 13 Custom_MountainLongRoad 2 27"
+    },
+    {
+      "Name": "BusStopWarps",
+      "Value": "-1 22 Farm 79 17 -1 23 Farm 79 17 -1 24 Farm 79 17 -1 25 Farm 79 17 -1 6 Backwoods 49 30 -1 7 Backwoods 49 30 -1 8 Backwoods 49 30 -1 9 Backwoods 49 30 -1 10 Backwoods 49 30"
+    },
+    {
+      "Name": "BusStopWarpsSVE",
+      "Value": "3 30 Custom_GrandpasShedOutside 4 2 4 30 Custom_GrandpasShedOutside 4 2 5 30 Custom_GrandpasShedOutside 4 2 6 30 Custom_GrandpasShedOutside 4 2",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "BusStopWarpsRSV",
+      "Value": "27 -1 Custom_Ridgeside_RSVCableCar 20 26 28 -1 Custom_Ridgeside_RSVCableCar 20 26 29 -1 Custom_Ridgeside_RSVCableCar 20 26",
+      "When": {
+        "HasMod | contains = Rafseazz.RSVCP": true
+      }
+    },
+    {
+      "Name": "BusStopWarpsRSV",
+      "Value": "27 -1 BusStop 28 5 28 -1 BusStop 28 5 29 -1 BusStop 28 5",
+      "When": {
+        "HasMod | contains = Rafseazz.RSVCP": false
+      }
+    },
+    {
+      "Name": "ShedAreaWarps",
+      "Value": "40 23 Town 2 54 40 24 Town 2 54 40 25 Town 2 54 40 26 Town 2 54 3 -1 BusStop 4 27 4 -1 BusStop 4 27 5 -1 BusStop 4 27 6 -1 BusStop 4 27"
+    },
+    {
+      "Name": "VineyardAreaWarps",
+      "Value": "57 26 Town 37 112 57 27 Town 37 112 57 28 Town 37 112 -1 49 Forest 117 72 -1 50 Forest 117 72 -1 51 Forest 117 72 -1 52 Forest 117 72 57 49 Custom_TownLake 2 24 57 50 Custom_TownLake 2 24 57 51 Custom_TownLake 2 24 57 52 Custom_TownLake 2 24 57 53 Custom_TownLake 2 24"
+    },
+    {
+      "Name": "ForestWarps",
+      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_ForestShortRoad 47 21 -1 76 Custom_ForestShortRoad 47 21"
+    },
+    {
+      "Name": "ForestWarpsSVE",
+      "Value": "120 71 Custom_BlueMoonVineyard 2 50 120 72 Custom_BlueMoonVineyard 2 50 120 73 Custom_BlueMoonVineyard 2 50 120 74 Custom_BlueMoonVineyard 2 50 -1 85 Custom_ForestWest 153 21",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "BeachRoadWarps",
+      "Value": "1 -1 Town 54 113 2 -1 Town 54 113 3 -1 Town 54 113 4 -1 Town 54 113 1 30 Beach 2 3 2 30 Beach 2 3 3 30 Beach 2 3 4 30 Beach 2 3"
+    },
+    {
+      "Name": "BeachWarps",
+      "Value": "1 -1 Custom_BeachRoad 2 27 2 -1 Custom_BeachRoad 2 27 3 -1 Custom_BeachRoad 2 27 4 -1 Custom_BeachRoad 2 27 -1 2 Custom_TownLake 37 24 -1 3 Custom_TownLake 37 24 -1 4 Custom_TownLake 37 24 -1 5 Custom_TownLake 37 24"
+    },
+    {
+      "Name": "TownLakeWarps",
+      "Value": "40 23 Beach 2 3 40 24 Beach 2 3 40 25 Beach 2 3 40 26 Beach 2 3"
+    },
+    {
+      "Name": "TownLakeWarpsSVE",
+      "Value": "-1 23 Custom_BlueMoonVineyard 54 50 -1 24 Custom_BlueMoonVineyard 54 50 -1 25 Custom_BlueMoonVineyard 54 50 -1 26 Custom_BlueMoonVineyard 54 50",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "ForestShortRoadWarps",
+      "Value": "50 20 Forest 2 75 50 21 Forest 2 75 50 22 Forest 2 75 3 30 Custom_TheQueenForest 67 2 4 30 Custom_TheQueenForest 67 2"
+    },
+    {
+      "Name": "TheQueenForestWarps",
+      "Value": "67 -1 Custom_ForestShortRoad 3 27 68 -1 Custom_ForestShortRoad 3 27"
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "Set_locations_maps_1",
+      "Action": "Include",
+      "FromFile": "assets/locations/00_Town.json, assets/locations/FE_npcroom.json, assets/locations/01_Mountain.json, assets/locations/02_Railroad.json, assets/locations/03_MountainLongRoad.json"
+    },
+    {
+      "LogName": "Set_locations_maps_2",
+      "Action": "Include",
+      "FromFile": "assets/locations/04_Backwoods.json, assets/locations/05_BusStop.json, assets/locations/06_ShedArea.json, assets/locations/07_VineyardArea.json, assets/locations/08_Forest.json"
+    },
+    {
+      "LogName": "Set_locations_maps_3",
+      "Action": "Include",
+      "FromFile": "assets/locations/09_BeachRoad.json, assets/locations/10_Beach.json, assets/locations/11_TownLake.json, assets/locations/12_MountainTunnel.json, assets/locations/13_ForestShortRoad.json"
+    },
+    {
+      "LogName": "Set_locations_maps_4",
+      "Action": "Include",
+      "FromFile": "assets/locations/14_TheQueenForest.json"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Changes": [
+    {
+      "Logname": "Backwoods_base_day",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/locations/tmx/04_Backwoods_base.tmx"
+    },
+    {
+      "Logname": "Backwoods_GraveSite",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods_GraveSite",
+      "FromFile": "assets/locations/tmx/04_Backwoods_GraveSite.tmx"
+    },
+    {
+      "Logname": "Backwoods_Staircase",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods_Staircase",
+      "FromFile": "assets/locations/tmx/04_Backwoods_Staircase.tmx"
+    },
+    {
+      "Logname": "Backwoods_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": false,
+        "Outdoors": true,
+        "forceLoadPathLayerLights": true,
+        "Warp": "{{BackwoodsWarps}}"
+      }
+    }
+  ]
+}

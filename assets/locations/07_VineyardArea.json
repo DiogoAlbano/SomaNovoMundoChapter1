@@ -1,0 +1,30 @@
+{
+  "Changes": [
+    {
+      "Logname": "Custom_BlueMoonVineyard_base_day",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_BlueMoonVineyard",
+      "FromFile": "assets/locations/tmx/07_VineyardArea_base.tmx",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Logname": "Custom_GrandpasShedOutside_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_BlueMoonVineyard",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": false,
+        "Outdoors": true,
+        "forceLoadPathLayerLights": true,
+        "DayTiles": null,
+        "NightTiles": null,
+        "Light": null,
+        "Warp": "{{VineyardAreaWarps}}"
+      },
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    }
+  ]
+}

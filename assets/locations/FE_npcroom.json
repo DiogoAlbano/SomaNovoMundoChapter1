@@ -1,0 +1,13 @@
+{
+  "Changes": [
+    {
+      "Logname": "Town_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_nmnpcroom",
+      "MapProperties": {
+        "AmbientLight": "255 255 255",
+        "Warp": "-1 1 Town 125 50 -1 2 Town 125 50"
+      }
+    }
+  ]
+}

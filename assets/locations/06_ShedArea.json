@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "Logname": "Custom_GrandpasShedOutside_base_day",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_GrandpasShedOutside",
+      "FromFile": "assets/locations/tmx/06_ShedArea_base.tmx",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Logname": "Custom_GrandpasShedOutside_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_GrandpasShedOutside",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": true,
+        "Outdoors": true,
+        "forceLoadPathLayerLights": true,
+        "Warp": "{{ShedAreaWarps}}"
+      },
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Changes": [
+    {
+      "Logname": "Town_base",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/locations/tmx/00_Town_base.tmx"
+    },
+    {
+      "Logname": "Town_base_night",
+      "SetProperties": {
+        "CurrentTime": "{{Time}}"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/locations/tmx/00_Town_base_night.tmx",
+      "When": {
+        "Time": "{{Range: 2000, 2600}}"
+      },
+      "Update": "OnTimeChange"
+    },
+    {
+      "Logname": "Town_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": false,
+        "Arch": "102 .02 100 .008 110 .02 115 .002",
+        "DayTiles": "Buildings 41 69 560 Buildings 92 79 186",
+        "Debris": "8 .01 4 0 .02 4",
+        "Fall_Objects": "410 .6",
+        "Fish": "139 .15 138 .19 137 .22 132 .4 140 .33 141 .4 143 .05 144 .1 145 .4 153 .3",
+        "Light": null,
+        "NightTiles": "Buildings 41 69 653 Buildings 92 79 190",
+        "Spring_Objects": "18 .9",
+        "Summer_Objects": "402 .9",
+        "Winter_Objects": "418 .7 414 .1",
+        "Outdoors": true,
+        "forceLoadPathLayerLights": true,
+        "Warp": "{{TownWarps}} {{TownWarpsSVE}}"
+      }
+    }
+  ]
+}

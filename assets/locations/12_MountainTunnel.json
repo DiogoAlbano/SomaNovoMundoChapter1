@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "Logname": "Custom_MountainTunnel_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_MountainTunnel",
+      "MapProperties": {
+        "AmbientLight": "255 255 255"
+      }
+    }
+  ]
+}

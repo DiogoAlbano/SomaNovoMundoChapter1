@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "Logname": "Custom_ForestShortRoad_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_ForestShortRoad",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": false,
+        "Outdoors": true,
+        "forceLoadPathLayerLights": true,
+        "Warp": "{{ForestShortRoadWarps}}"
+      }
+    }
+  ]
+}

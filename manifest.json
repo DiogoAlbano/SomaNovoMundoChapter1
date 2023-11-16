@@ -1,0 +1,27 @@
+{
+  "Name": "> Novo Mundo Chapter 1",
+  "Author": "somaraezel",
+  "Version": "1.0.0",
+  "Description": "Part Of Novo Mundo Mod Series.",
+  "UniqueID": "somaraezel.NovoMundoChapter1",
+  "UpdateKeys": [
+    "Nexus: ???"
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "aedenthorn.ExtraMapLayers",
+      "IsRequired": true
+    }
+  ]
+}

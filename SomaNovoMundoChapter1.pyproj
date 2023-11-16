@@ -1,0 +1,84 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8ed9158b-cc4e-4759-a00d-3a993bde7bfe</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>SomaNovoMundoChapter1</Name>
+    <RootNamespace>SomaNovoMundoChapter1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\locations\" />
+    <Folder Include="assets\locations\tmx\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\locations\00_Town.json" />
+    <Content Include="assets\locations\01_Mountain.json" />
+    <Content Include="assets\locations\02_Railroad.json" />
+    <Content Include="assets\locations\03_MountainLongRoad.json" />
+    <Content Include="assets\locations\04_Backwoods.json" />
+    <Content Include="assets\locations\05_BusStop.json" />
+    <Content Include="assets\locations\06_ShedArea.json" />
+    <Content Include="assets\locations\07_VineyardArea.json" />
+    <Content Include="assets\locations\08_Forest.json" />
+    <Content Include="assets\locations\09_BeachRoad.json" />
+    <Content Include="assets\locations\10_Beach.json" />
+    <Content Include="assets\locations\11_TownLake.json" />
+    <Content Include="assets\locations\12_MountainTunnel.json" />
+    <Content Include="assets\locations\13_ForestShortRoad.json" />
+    <Content Include="assets\locations\14_TheQueenForest.json" />
+    <Content Include="assets\locations\FE_npcroom.json" />
+    <Content Include="assets\locations\tmx\00_Town_base.tmx" />
+    <Content Include="assets\locations\tmx\00_Town_base_night.tmx" />
+    <Content Include="assets\locations\tmx\01_Mountain_base.tmx" />
+    <Content Include="assets\locations\tmx\01_Mountain_base_allow_passage.tmx" />
+    <Content Include="assets\locations\tmx\01_Mountain_base_night.tmx" />
+    <Content Include="assets\locations\tmx\01_Mountain_base_remove_barrier.tmx" />
+    <Content Include="assets\locations\tmx\02_Railroad_base.tmx" />
+    <Content Include="assets\locations\tmx\03_MountainLongRoad_base.tmx" />
+    <Content Include="assets\locations\tmx\03_MountainLongRoad_base_allow_passage.tmx" />
+    <Content Include="assets\locations\tmx\04_Backwoods_base.tmx" />
+    <Content Include="assets\locations\tmx\04_Backwoods_GraveSite.tmx" />
+    <Content Include="assets\locations\tmx\04_Backwoods_Staircase.tmx" />
+    <Content Include="assets\locations\tmx\05_BusStop_base.tmx" />
+    <Content Include="assets\locations\tmx\06_ShedArea_base.tmx" />
+    <Content Include="assets\locations\tmx\06_ShedArea_base_NoSVE.tmx" />
+    <Content Include="assets\locations\tmx\07_VineyardArea_base.tmx" />
+    <Content Include="assets\locations\tmx\07_VineyardArea_base_NoSVE.tmx" />
+    <Content Include="assets\locations\tmx\08_Forest_base.tmx" />
+    <Content Include="assets\locations\tmx\09_BeachRoad_base.tmx" />
+    <Content Include="assets\locations\tmx\10_Beach_base.tmx" />
+    <Content Include="assets\locations\tmx\11_TownLake_base.tmx" />
+    <Content Include="assets\locations\tmx\12_MountainTunnel_base.tmx" />
+    <Content Include="assets\locations\tmx\13_ForestShortRoad_base.tmx" />
+    <Content Include="assets\locations\tmx\14_TheQueenForest_base.tmx" />
+    <Content Include="assets\locations\tmx\FE_npcroom.tmx" />
+    <Content Include="assets\locations\tmx\FF_testroom.tmx" />
+    <Content Include="content.json" />
+    <Content Include="manifest.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

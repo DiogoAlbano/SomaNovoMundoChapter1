@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    {
+      "Logname": "Custom_TheQueenForest_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_TheQueenForest",
+      "MapProperties": {
+        "AllowGrassSurviveInWinter": false,
+        "Outdoors": true,
+        "forceLoadPathLayerLights": true,
+        "Warp": "{{TheQueenForestWarps}}"
+      }
+    },
+    {
+      "Logname": "Custom_TheQueenForest_LocationData",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "Custom_TheQueenForest": "-1/-1/-1/-1/137 -1 132 -1 143 -1 145 -1 153 -1 706 -1 136 -1 142 -1 702 -1 700 -1/138 -1 132 -1 144 -1 145 -1 153 -1 706 -1 136 -1 142 -1 702 -1 700 -1 698 -1/139 -1 137 -1 132 -1 140 -1 143 -1 153 -1 706 -1 699 -1 136 -1 142 -1 702 -1 700 -1 269 -1/132 -1 140 -1 141 -1 143 -1 144 -1 153 -1 707 -1 699 -1 136 -1 702 -1 700 -1 698 -1 269 -1/378 .2 110 .2 583 .1 102 .2 390 .25 330 1"
+      }
+    }
+  ]
+}
