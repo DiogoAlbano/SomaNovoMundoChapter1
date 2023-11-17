@@ -1,14 +1,14 @@
 {
   "Changes": [
     {
-      "Logname": "Custom_ForestShortRoad_Map_Properties",
+      "Logname": "Custom_TheKnightForest_Map_Properties",
       "Action": "EditMap",
-      "Target": "Maps/Custom_ForestShortRoad",
+      "Target": "Maps/Custom_TheKnightForest",
       "MapProperties": {
         "AllowGrassSurviveInWinter": false,
         "Outdoors": true,
         "forceLoadPathLayerLights": true,
-        "Warp": "{{ForestShortRoadWarps}}"
+        "Warp": "{{TheKnightForestWarps}}"
       }
     }
   ]

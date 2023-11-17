@@ -40,7 +40,7 @@
     <Content Include="assets\locations\10_Beach.json" />
     <Content Include="assets\locations\11_TownLake.json" />
     <Content Include="assets\locations\12_MountainTunnel.json" />
-    <Content Include="assets\locations\13_ForestShortRoad.json" />
+    <Content Include="assets\locations\13_TheKnightForest.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
     <Content Include="assets\locations\FE_npcroom.json" />
     <Content Include="assets\locations\tmx\00_Town_base.tmx" />
@@ -66,6 +66,7 @@
     <Content Include="assets\locations\tmx\11_TownLake_base.tmx" />
     <Content Include="assets\locations\tmx\12_MountainTunnel_base.tmx" />
     <Content Include="assets\locations\tmx\13_ForestShortRoad_base.tmx" />
+    <Content Include="assets\locations\tmx\13_TheKnightForest_base.tmx" />
     <Content Include="assets\locations\tmx\14_TheQueenForest_base.tmx" />
     <Content Include="assets\locations\tmx\FE_npcroom.tmx" />
     <Content Include="assets\locations\tmx\FF_testroom.tmx" />

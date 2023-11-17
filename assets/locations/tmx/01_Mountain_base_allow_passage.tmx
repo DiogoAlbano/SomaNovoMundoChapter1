@@ -4,6 +4,7 @@
   <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
   <tile id="150">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
@@ -41,6 +42,7 @@
   </tile>
   <tile id="151">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
    <animation>
@@ -49,19 +51,39 @@
    </animation>
   </tile>
   <tile id="152">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
    <animation>
     <frame tileid="152" duration="1000"/>
     <frame tileid="151" duration="1000"/>
    </animation>
   </tile>
+  <tile id="153">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
+  <tile id="154">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
+  <tile id="155">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
   <tile id="156">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="175">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
@@ -69,75 +91,94 @@
   <tile id="176">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="177">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="178">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="179">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="180">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="181">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="182">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="200">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
+  <tile id="201">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
   <tile id="202">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="203">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="204">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="205">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="206">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="207">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -148,39 +189,46 @@
   </tile>
   <tile id="225">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="226">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="227">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="228">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="229">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="230">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="231">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -191,38 +239,50 @@
   </tile>
   <tile id="250">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="251">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="252">
    <properties>
     <property name="Diggable" value="t"/>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="253">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="254">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="255">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="256">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="261">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="265">
@@ -230,25 +290,44 @@
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
+  <tile id="275">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
   <tile id="276">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="277">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="278">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="279">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="280">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
+  <tile id="281">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="285">
@@ -256,30 +335,50 @@
     <property name="Water" value="t"/>
    </properties>
   </tile>
+  <tile id="286">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
+  <tile id="300">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
   <tile id="301">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="302">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="303">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="304">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="305">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="306">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="308">
@@ -295,6 +394,11 @@
   <tile id="310">
    <properties>
     <property name="Water" value="t"/>
+   </properties>
+  </tile>
+  <tile id="311">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="312">
@@ -314,27 +418,47 @@
   </tile>
   <tile id="325">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="326">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="327">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="328">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="329">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="330">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
+  <tile id="331">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </tile>
+  <tile id="332">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="333">
@@ -374,111 +498,147 @@
   </tile>
   <tile id="350">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="351">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="352">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="353">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="354">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="355">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="356">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="357">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="375">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="376">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="377">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="378">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="379">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="380">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="381">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="382">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="400">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="401">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="402">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="403">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Spawnable" value="t"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="404">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="405">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="406">
    <properties>
+    <property name="NoSpawn" value="All"/>
     <property name="Type" value="Grass"/>
+   </properties>
+  </tile>
+  <tile id="407">
+   <properties>
+    <property name="NoSpawn" value="All"/>
    </properties>
   </tile>
   <tile id="430">

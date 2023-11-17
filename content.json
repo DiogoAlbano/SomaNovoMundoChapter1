@@ -32,9 +32,9 @@
       "FromMapFile": "assets/locations/tmx/12_MountainTunnel_base.tmx"
     },
     {
-      "Logname": "Add_Custom_ForestShortRoad",
-      "Name": "Custom_ForestShortRoad",
-      "FromMapFile": "assets/locations/tmx/13_ForestShortRoad_base.tmx"
+      "Logname": "Add_Custom_TheKnightForest",
+      "Name": "Custom_TheKnightForest",
+      "FromMapFile": "assets/locations/tmx/13_TheKnightForest_base.tmx"
     },
     {
       "Logname": "Add_Custom_TheQueenForest",
@@ -112,7 +112,7 @@
     },
     {
       "Name": "ForestWarps",
-      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_ForestShortRoad 47 21 -1 76 Custom_ForestShortRoad 47 21"
+      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_TheKnightForest 47 21 -1 76 Custom_TheKnightForest 47 21"
     },
     {
       "Name": "ForestWarpsSVE",
@@ -141,12 +141,12 @@
       }
     },
     {
-      "Name": "ForestShortRoadWarps",
+      "Name": "TheKnightForestWarps",
       "Value": "50 20 Forest 2 75 50 21 Forest 2 75 50 22 Forest 2 75 3 30 Custom_TheQueenForest 67 2 4 30 Custom_TheQueenForest 67 2"
     },
     {
       "Name": "TheQueenForestWarps",
-      "Value": "67 -1 Custom_ForestShortRoad 3 27 68 -1 Custom_ForestShortRoad 3 27"
+      "Value": "67 -1 Custom_TheKnightForest 3 27 68 -1 Custom_TheKnightForest 3 27"
     }
   ],
   "Changes": [
@@ -163,7 +163,7 @@
     {
       "LogName": "Set_locations_maps_3",
       "Action": "Include",
-      "FromFile": "assets/locations/09_BeachRoad.json, assets/locations/10_Beach.json, assets/locations/11_TownLake.json, assets/locations/12_MountainTunnel.json, assets/locations/13_ForestShortRoad.json"
+      "FromFile": "assets/locations/09_BeachRoad.json, assets/locations/10_Beach.json, assets/locations/11_TownLake.json, assets/locations/12_MountainTunnel.json, assets/locations/13_TheKnightForest.json"
     },
     {
       "LogName": "Set_locations_maps_4",
