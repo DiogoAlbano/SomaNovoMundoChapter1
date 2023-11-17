@@ -66,6 +66,9 @@
     <Content Include="assets\locations\tmx\12_MountainTunnel_base.tmx" />
     <Content Include="assets\locations\tmx\13_TheKnightForest_base.tmx" />
     <Content Include="assets\locations\tmx\14_TheQueenForest_base.tmx" />
+    <Content Include="assets\locations\tmx\14_TheQueenForest_base_winter.tmx" />
+    <Content Include="assets\locations\tmx\F0_TransportArea.tmx" />
+    <Content Include="assets\locations\tmx\FD_FestivalFishingContest.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFlowerDance.tmx" />
     <Content Include="assets\locations\tmx\FE_npcroom.tmx" />
     <Content Include="assets\locations\tmx\FF_testroom.tmx" />

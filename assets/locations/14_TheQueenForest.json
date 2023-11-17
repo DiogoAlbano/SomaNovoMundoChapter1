@@ -12,6 +12,15 @@
       }
     },
     {
+      "Logname": "Custom_TheQueenForest_winter",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_TheQueenForest",
+      "FromFile": "assets/locations/tmx/14_TheQueenForest_base_winter.tmx",
+      "When": {
+        "Season": "Winter"
+      }
+    },
+    {
       "Logname": "Custom_TheQueenForest_LocationData",
       "Action": "EditData",
       "Target": "Data/Locations",
