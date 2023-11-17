@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "Logname": "Flower_Festival_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival",
+      "FromFile": "assets/locations/tmx/FD_FestivalFlowerDance.tmx"
+    },
+    {
+      "Logname": "Flower_Festival_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/spring24",
+      "Entries": {
+        "conditions": "Custom_TheQueenForest/900 1400",
+        "set-up": "event1/22 22/farmer 67 3 2/changeToTemporaryMap Forest-FlowerFestival/loadActors Set-Up/advancedMove Vincent true -6 0 0 -1 6 0 0 1/advancedMove Jas true 1 0 0 1 -6 0 0 -1 5 0/advancedMove Pam true 2 25000 0 -3 4 0 4 25000 -4 0 0 3/advancedMove Haley true 0 1 2 3000 2 0 0 -1 -2 0 3 500 4 500 1 500 2 500 2 0 1 500 2 500 3 500 4 500 0 2 0 -2 -2 0/advancedMove Caroline true 7 0 0 1 1 18000 0 -1 -7 0 3 18000/advancedMove Willy true 2 25000 -4 0 0 -12 4 0 0 -1 4 30000 0 1 -4 0 0 12 4 0/playerControl flowerFestival"
+      }
+    }
+  ]
+}

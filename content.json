@@ -112,7 +112,7 @@
     },
     {
       "Name": "ForestWarps",
-      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_TheKnightForest 57 65 -1 76 Custom_TheKnightForest 56 66"
+      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_TheKnightForest 57 65 -1 76 Custom_TheKnightForest 57 66"
     },
     {
       "Name": "ForestWarpsSVE",
@@ -168,7 +168,7 @@
     {
       "LogName": "Set_locations_maps_4",
       "Action": "Include",
-      "FromFile": "assets/locations/14_TheQueenForest.json"
+      "FromFile": "assets/locations/14_TheQueenForest.json, assets/locations/FD_FestivalLocations.json"
     }
   ]
 }
