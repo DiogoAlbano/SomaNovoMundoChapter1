@@ -112,7 +112,7 @@
     },
     {
       "Name": "ForestWarps",
-      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_TheKnightForest 47 21 -1 76 Custom_TheKnightForest 47 21"
+      "Value": "120 24 Town 2 91 120 25 Town 2 91 120 26 Town 2 91 120 27 Town 2 91 67 -1 Farm 41 64 68 -1 Farm 41 64 69 -1 Farm 41 64 70 -1 Farm 41 64 71 -1 Farm 41 64 72 -1 Farm 41 64 -1 6 Woods 81 29 -1 7 Woods 81 29 -1 75 Custom_TheKnightForest 57 65 -1 76 Custom_TheKnightForest 56 66"
     },
     {
       "Name": "ForestWarpsSVE",
@@ -142,11 +142,11 @@
     },
     {
       "Name": "TheKnightForestWarps",
-      "Value": "50 20 Forest 2 75 50 21 Forest 2 75 50 22 Forest 2 75 3 30 Custom_TheQueenForest 67 2 4 30 Custom_TheQueenForest 67 2"
+      "Value": "60 65 Forest 2 75 60 66 Forest 2 75 60 67 Forest 2 75 5 74 Custom_TheQueenForest 67 2 6 74 Custom_TheQueenForest 67 2"
     },
     {
       "Name": "TheQueenForestWarps",
-      "Value": "67 -1 Custom_TheKnightForest 3 27 68 -1 Custom_TheKnightForest 3 27"
+      "Value": "67 -1 Custom_TheKnightForest 5 71 68 -1 Custom_TheKnightForest 5 71"
     }
   ],
   "Changes": [
