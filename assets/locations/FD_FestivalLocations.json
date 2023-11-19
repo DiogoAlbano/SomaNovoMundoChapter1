@@ -37,6 +37,12 @@
           "0": "Custom_TheQueenForest"
         }
       }
+    },
+    {
+      "Logname": "FestivalLuau_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "FromFile": "assets/locations/tmx/FD_FestivalLuau.tmx"
     }
   ]
 }
