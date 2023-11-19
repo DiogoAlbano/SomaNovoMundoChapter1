@@ -40,6 +40,11 @@
       "Logname": "Add_Custom_TheQueenForest",
       "Name": "Custom_TheQueenForest",
       "FromMapFile": "assets/locations/tmx/14_TheQueenForest_base.tmx"
+    },
+    {
+      "Logname": "Add_Custom_TheHeroesPath",
+      "Name": "Custom_TheHeroesPath",
+      "FromMapFile": "assets/locations/tmx/15_TheHeroesPath_base.tmx"
     }
   ],
   "DynamicTokens": [
@@ -146,7 +151,11 @@
     },
     {
       "Name": "TheQueenForestWarps",
-      "Value": "67 -1 Custom_TheKnightForest 5 71 68 -1 Custom_TheKnightForest 5 71"
+      "Value": "67 -1 Custom_TheKnightForest 5 71 68 -1 Custom_TheKnightForest 5 71 65 60 Custom_TheHeroesPath 81 2 66 60 Custom_TheHeroesPath 81 2 67 60 Custom_TheHeroesPath 81 2 68 60 Custom_TheHeroesPath 81 2"
+    },
+    {
+      "Name": "TheHeroesPathWarps",
+      "Value": "81 -1 Custom_TheQueenForest 66 57 82 -1 Custom_TheQueenForest 66 57"
     }
   ],
   "Changes": [
@@ -168,7 +177,7 @@
     {
       "LogName": "Set_locations_maps_4",
       "Action": "Include",
-      "FromFile": "assets/locations/14_TheQueenForest.json, assets/locations/FD_FestivalLocations.json"
+      "FromFile": "assets/locations/14_TheQueenForest.json, assets/locations/FD_FestivalLocations.json, assets/locations/15_TheHeroesPath.json"
     }
   ]
 }

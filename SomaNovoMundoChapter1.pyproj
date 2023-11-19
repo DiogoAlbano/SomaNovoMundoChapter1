@@ -41,6 +41,7 @@
     <Content Include="assets\locations\11_TownLake.json" />
     <Content Include="assets\locations\12_MountainTunnel.json" />
     <Content Include="assets\locations\13_TheKnightForest.json" />
+    <Content Include="assets\locations\15_TheHeroesPath.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
     <Content Include="assets\locations\FE_npcroom.json" />
     <Content Include="assets\locations\FD_FestivalLocations.json" />
@@ -67,6 +68,7 @@
     <Content Include="assets\locations\tmx\13_TheKnightForest_base.tmx" />
     <Content Include="assets\locations\tmx\14_TheQueenForest_base.tmx" />
     <Content Include="assets\locations\tmx\14_TheQueenForest_base_winter.tmx" />
+    <Content Include="assets\locations\tmx\15_TheHeroesPath_base.tmx" />
     <Content Include="assets\locations\tmx\F0_TransportArea.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFishingContest.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFlowerDance.tmx" />
