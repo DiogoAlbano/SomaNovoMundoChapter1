@@ -147,11 +147,11 @@
     },
     {
       "Name": "TheKnightForestWarps",
-      "Value": "60 65 Forest 2 75 60 66 Forest 2 75 60 67 Forest 2 75 5 74 Custom_TheQueenForest 67 2 6 74 Custom_TheQueenForest 67 2"
+      "Value": "60 65 Forest 2 75 60 66 Forest 2 75 60 67 Forest 2 75 5 74 Custom_TheQueenForest 65 2 6 74 Custom_TheQueenForest 65 2"
     },
     {
       "Name": "TheQueenForestWarps",
-      "Value": "67 -1 Custom_TheKnightForest 5 71 68 -1 Custom_TheKnightForest 5 71 65 60 Custom_TheHeroesPath 81 2 66 60 Custom_TheHeroesPath 81 2 67 60 Custom_TheHeroesPath 81 2 68 60 Custom_TheHeroesPath 81 2"
+      "Value": "67 -1 Custom_TheKnightForest 5 71 68 -1 Custom_TheKnightForest 5 71 65 60 Custom_TheHeroesPath 77 2 66 60 Custom_TheHeroesPath 77 2 67 60 Custom_TheHeroesPath 77 2 68 60 Custom_TheHeroesPath 77 2"
     },
     {
       "Name": "TheHeroesPathWarps",
