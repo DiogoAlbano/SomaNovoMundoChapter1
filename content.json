@@ -54,9 +54,24 @@
     },
     {
       "Name": "TownWarpsSVE",
-      "Value": "127 71 Custom_ShearwaterBridge 0 20 127 72 Custom_ShearwaterBridge 0 20 127 73 Custom_ShearwaterBridge 0 20 127 74 Custom_ShearwaterBridge 0 20 127 93 Custom_TownEast 2 20 127 94 Custom_TownEast 2 20 127 95 Custom_TownEast 2 20 -1 52 Custom_GrandpasShedOutside 37 24 -1 53 Custom_GrandpasShedOutside 37 24 -1 54 Custom_GrandpasShedOutside 37 24 -1 55 Custom_GrandpasShedOutside 37 24 -1 56 Custom_GrandpasShedOutside 37 24 35 111 Custom_BlueMoonVineyard 54 27 35 112 Custom_BlueMoonVineyard 54 27 35 113 Custom_BlueMoonVineyard 54 27",
+      "Value": "127 93 Custom_TownEast 2 20 127 94 Custom_TownEast 2 20 127 95 Custom_TownEast 2 20 -1 52 Custom_GrandpasShedOutside 37 24 -1 53 Custom_GrandpasShedOutside 37 24 -1 54 Custom_GrandpasShedOutside 37 24 -1 55 Custom_GrandpasShedOutside 37 24 -1 56 Custom_GrandpasShedOutside 37 24 35 111 Custom_BlueMoonVineyard 54 27 35 112 Custom_BlueMoonVineyard 54 27 35 113 Custom_BlueMoonVineyard 54 27",
       "When": {
         "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "TownWarpsEC",
+      "Value": "127 71 Custom_ShearwaterBridge 0 20 127 72 Custom_ShearwaterBridge 0 20 127 73 Custom_ShearwaterBridge 0 20 127 74 Custom_ShearwaterBridge 0 20",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "Name": "TownWarpsEC",
+      "Value": "127 71 Custom_EastScarpe 3 72 127 72 Custom_EastScarpe 3 72 127 73 Custom_EastScarpe 3 72 127 74 Custom_EastScarpe 3 72",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": false,
+        "HasMod | contains = LemurKat.EastScarpe.CP": true
       }
     },
     {
@@ -151,11 +166,11 @@
     },
     {
       "Name": "TheQueenForestWarps",
-      "Value": "67 -1 Custom_TheKnightForest 5 71 68 -1 Custom_TheKnightForest 5 71 65 60 Custom_TheHeroesPath 77 2 66 60 Custom_TheHeroesPath 77 2 67 60 Custom_TheHeroesPath 77 2 68 60 Custom_TheHeroesPath 77 2"
+      "Value": "65 -1 Custom_TheKnightForest 5 71 66 -1 Custom_TheKnightForest 5 71 65 60 Custom_TheHeroesPath 77 2 66 60 Custom_TheHeroesPath 77 2 67 60 Custom_TheHeroesPath 77 2 68 60 Custom_TheHeroesPath 77 2"
     },
     {
       "Name": "TheHeroesPathWarps",
-      "Value": "81 -1 Custom_TheQueenForest 66 57 82 -1 Custom_TheQueenForest 66 57"
+      "Value": "77 -1 Custom_TheQueenForest 66 57 78 -1 Custom_TheQueenForest 66 57"
     }
   ],
   "Changes": [

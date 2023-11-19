@@ -37,7 +37,7 @@
         "Winter_Objects": "418 .7 414 .1",
         "Outdoors": true,
         "forceLoadPathLayerLights": true,
-        "Warp": "{{TownWarps}} {{TownWarpsSVE}}"
+        "Warp": "{{TownWarps}} {{TownWarpsSVE}} {{TownWarpsEC}}"
       }
     }
   ]
