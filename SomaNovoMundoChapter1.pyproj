@@ -75,6 +75,7 @@
     <Content Include="assets\locations\tmx\FD_FestivalFair.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFishingContest.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFlowerDance.tmx" />
+    <Content Include="assets\locations\tmx\FD_FestivalJellies.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalLuau.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalSpiritEve.tmx" />
     <Content Include="assets\locations\tmx\FE_npcroom.tmx" />

@@ -26,7 +26,7 @@
       "FromFile": "assets/locations/tmx/FD_FestivalFlowerDance.tmx"
     },
     {
-      "Logname": "FD_FestivalFlowerDance_Data_Change",
+      "Logname": "FestivalFlowerDance_Data_Change",
       "Action": "EditData",
       "Target": "Data/Festivals/spring24",
       "Fields": {
@@ -43,6 +43,108 @@
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau",
       "FromFile": "assets/locations/tmx/FD_FestivalLuau.tmx"
+    },
+    {
+      "Logname": "FestivalLuau_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Fields": {
+        "set-up": {
+          "2": "farmer 2 2 2"
+        }
+      }
+    },
+    {
+      "Logname": "FestivalJellies_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies",
+      "FromFile": "assets/locations/tmx/FD_FestivalJellies.tmx"
+    },
+    {
+      "Logname": "FestivalJellies_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Fields": {
+        "set-up": {
+          "2": "farmer 2 2 2"
+        }
+      }
+    },
+    {
+      "Logname": "FestivalFair_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/locations/tmx/FD_FestivalFair.tmx"
+    },
+    {
+      "Logname": "FestivalFair_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Fields": {
+        "set-up": {
+          "2": "farmer 77 2 2"
+        },
+        "conditions": {
+          "0": "Custom_TheHeroesPath"
+        }
+      }
+    },
+    {
+      "Logname": "FestivalSpiritEve_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Town-Halloween",
+      "FromFile": "assets/locations/tmx/FD_FestivalSpiritEve.tmx"
+    },
+    {
+      "Logname": "FestivalSpiritEve_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall27",
+      "Fields": {
+        "set-up": {
+          "2": "farmer 77 2 2"
+        },
+        "conditions": {
+          "0": "Custom_TheHeroesPath"
+        }
+      }
+    },
+    {
+      "Logname": "FestivalFishingContest_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Forest-IceFestival",
+      "FromFile": "assets/locations/tmx/FD_FestivalFishingContest.tmx"
+    },
+    {
+      "Logname": "FestivalFishingContest_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter8",
+      "Fields": {
+        "set-up": {
+          "2": "farmer 66 2 2"
+        },
+        "conditions": {
+          "0": "Custom_TheQueenForest"
+        }
+      }
+    },
+    {
+      "Logname": "FestivalChristmas_Map_Change",
+      "Action": "EditMap",
+      "Target": "Maps/Town-Christmas",
+      "FromFile": "assets/locations/tmx/FD_FestivalChristmas.tmx"
+    },
+    {
+      "Logname": "FestivalChristmas_Data_Change",
+      "Action": "EditData",
+      "Target": "Data/Festivals/winter25",
+      "Fields": {
+        "set-up": {
+          "2": "farmer 77 2 2"
+        },
+        "conditions": {
+          "0": "Custom_TheHeroesPath"
+        }
+      }
     }
   ]
 }
