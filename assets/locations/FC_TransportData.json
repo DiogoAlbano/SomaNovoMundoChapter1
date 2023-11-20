@@ -1,0 +1,94 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "somaraezel.SomaCore/Coordinates",
+      "Entries": {
+        "somaraezel.NovoMundoChapter1.destination1": {
+          "destination": "Town",
+          "X": 32,
+          "Y": 49,
+          "description": "Viajar para vila, estação Hospital."
+        },
+        "somaraezel.NovoMundoChapter1.destination2": {
+          "destination": "Town",
+          "X": 99,
+          "Y": 34,
+          "description": "Viajar para vila, estação Joja."
+        },
+        "somaraezel.NovoMundoChapter1.destination3": {
+          "destination": "Town",
+          "X": 102,
+          "Y": 79,
+          "description": "Viajar para vila, estação Ferreiro."
+        },
+        "somaraezel.NovoMundoChapter1.destination4": {
+          "destination": "Mountain",
+          "X": 30,
+          "Y": 30,
+          "description": "Viajar para montanha, estação Mina."
+        },
+        "somaraezel.NovoMundoChapter1.destination5": {
+          "destination": "Mountain",
+          "X": 71,
+          "Y": 7,
+          "description": "Viajar para montanha, estação Guilda."
+        },
+        "somaraezel.NovoMundoChapter1.destination6": {
+          "destination": "Mountain",
+          "X": 108,
+          "Y": 17,
+          "description": "Viajar para montanha, estação Túnel."
+        },
+        "somaraezel.NovoMundoChapter1.destination7": {
+          "destination": "Railroad",
+          "X": 22,
+          "Y": 36,
+          "description": "Viajar para ferrovia, estação Trem."
+        },
+        "somaraezel.NovoMundoChapter1.destination8": {
+          "destination": "Railroad",
+          "X": 5,
+          "Y": 57,
+          "description": "Viajar para ferrovia, estação Spa."
+        },
+        "somaraezel.NovoMundoChapter1.destination9": {
+          "destination": "BusStop",
+          "X": 19,
+          "Y": 6,
+          "description": "Viajar para a estação do ônibus."
+        },
+        "somaraezel.NovoMundoChapter1.destination10": {
+          "destination": "Forest",
+          "X": 118,
+          "Y": 34,
+          "description": "Viajar para a floresta, estação Rancho."
+        },
+        "somaraezel.NovoMundoChapter1.destination11": {
+          "destination": "Forest",
+          "X": 13,
+          "Y": 40,
+          "description": "Viajar para a floresta, estação Torre."
+        },
+        "somaraezel.NovoMundoChapter1.destination12": {
+          "destination": "Forest",
+          "X": 115,
+          "Y": 70,
+          "description": "Viajar para a floresta, estação Esgoto."
+        },
+        "somaraezel.NovoMundoChapter1.destination13": {
+          "destination": "{{IsMarketTime}}",
+          "X": 7,
+          "Y": 4,
+          "description": "Viajar para a estação da Praia."
+        },
+        "somaraezel.NovoMundoChapter1.destination14": {
+          "destination": "Custom_TheKnightForest",
+          "X": 9,
+          "Y": 72,
+          "description": "Viajar para a estação da Área real."
+        }
+      }
+    }
+  ]
+}

@@ -49,6 +49,18 @@
   ],
   "DynamicTokens": [
     {
+      "Name": "IsMarketTime",
+      "Value": "BeachNightMarket",
+      "When": {
+        "Season": "winter",
+        "Day": "15, 16, 17"
+      }
+    },
+    {
+      "Name": "IsMarketTime",
+      "Value": "Beach"
+    },
+    {
       "Name": "TownWarps",
       "Value": "127 50 Custom_nmnpcroom 2 1 72 -1 Mountain 36 39 73 -1 Mountain 36 39 74 -1 Mountain 36 39 75 -1 Mountain 36 39 -1 89 Forest 116 25 -1 90 Forest 116 25 -1 91 Forest 116 25 -1 92 Forest 116 25 -1 93 Forest 116 25 53 116 Custom_BeachRoad 2 2 54 116 Custom_BeachRoad 2 2 55 116 Custom_BeachRoad 2 2 56 116 Custom_BeachRoad 2 2"
     },
@@ -179,24 +191,24 @@
   ],
   "Changes": [
     {
-      "LogName": "Set_locations_maps_1",
+      "LogName": "Set_locations_data_1",
       "Action": "Include",
       "FromFile": "assets/locations/00_Town.json, assets/locations/01_Mountain.json, assets/locations/02_Railroad.json, assets/locations/03_MountainLongRoad.json, assets/locations/04_Backwoods.json,"
     },
     {
-      "LogName": "Set_locations_maps_2",
+      "LogName": "Set_locations_data_2",
       "Action": "Include",
       "FromFile": "assets/locations/05_BusStop.json, assets/locations/06_ShedArea.json, assets/locations/07_VineyardArea.json, assets/locations/08_Forest.json, assets/locations/09_BeachRoad.json,"
     },
     {
-      "LogName": "Set_locations_maps_3",
+      "LogName": "Set_locations_data_3",
       "Action": "Include",
       "FromFile": "assets/locations/10_Beach.json, assets/locations/11_TownLake.json, assets/locations/12_MountainTunnel.json, assets/locations/13_TheKnightForest.json, assets/locations/14_TheQueenForest.json,"
     },
     {
-      "LogName": "Set_locations_maps_4",
+      "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/FD_FestivalLocations.json, assets/locations/FE_npcroom.json,"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json, assets/locations/FE_npcroom.json,"
     }
   ]
 }
