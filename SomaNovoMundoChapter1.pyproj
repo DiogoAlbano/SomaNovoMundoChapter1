@@ -25,6 +25,7 @@
     <Folder Include="assets\" />
     <Folder Include="assets\locations\" />
     <Folder Include="assets\locations\tmx\" />
+    <Folder Include="i18n\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\locations\00_Town.json" />
@@ -83,6 +84,7 @@
     <Content Include="assets\locations\tmx\FE_npcroom.tmx" />
     <Content Include="assets\locations\tmx\FF_testroom.tmx" />
     <Content Include="content.json" />
+    <Content Include="i18n\default.json" />
     <Content Include="manifest.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

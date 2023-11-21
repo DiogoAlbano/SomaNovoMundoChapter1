@@ -46,6 +46,7 @@
       "Name": "Custom_TheHeroesPath",
       "FromMapFile": "assets/locations/tmx/15_TheHeroesPath_base.tmx"
     }
+    
   ],
   "DynamicTokens": [
     {
@@ -190,6 +191,12 @@
     }
   ],
   "Changes": [
+    {
+      "Logname": "Add_TrainArea",
+      "Action": "Load",
+      "Target": "Maps/TrainArea",
+      "FromFile": "assets/locations/tmx/F0_TransportArea.tmx"
+    },
     {
       "LogName": "Set_locations_data_1",
       "Action": "Include",
