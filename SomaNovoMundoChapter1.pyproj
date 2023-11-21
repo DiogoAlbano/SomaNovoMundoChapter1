@@ -45,6 +45,7 @@
     <Content Include="assets\locations\15_TheHeroesPath.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
     <Content Include="assets\locations\FC_TransportData.json" />
+    <Content Include="assets\locations\F0_TransportArea.json" />
     <Content Include="assets\locations\FE_npcroom.json" />
     <Content Include="assets\locations\FD_FestivalLocations.json" />
     <Content Include="assets\locations\tmx\00_Town_base.tmx" />
