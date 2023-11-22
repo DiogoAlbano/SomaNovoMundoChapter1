@@ -4,7 +4,7 @@
       "Logname": "Custom_MountainLongRoad_base_allow_passage",
       "Action": "EditMap",
       "Target": "Maps/Custom_MountainLongRoad",
-      "FromFile": "assets/locations/tmx/03_MountainLongRoad_base_allow_passage.tmx",
+      "FromFile": "assets/locations/tmx/03_MountainLongRoad_allow_passage.tmx",
       "ToArea": {
         "X": 3,
         "Y": 6,

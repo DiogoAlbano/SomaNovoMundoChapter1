@@ -14,41 +14,87 @@
     {
       "Logname": "Add_Custom_MountainLongRoad",
       "Name": "Custom_MountainLongRoad",
-      "FromMapFile": "assets/locations/tmx/03_MountainLongRoad_base.tmx"
+      "FromMapFile": "assets/locations/tmx/03_MountainLongRoad_0.tmx"
     },
     {
       "Logname": "Add_Custom_BeachRoad",
       "Name": "Custom_BeachRoad",
-      "FromMapFile": "assets/locations/tmx/09_BeachRoad_base.tmx"
+      "FromMapFile": "assets/locations/tmx/09_BeachRoad_0.tmx"
     },
     {
       "Logname": "Add_Custom_TownLake",
       "Name": "Custom_TownLake",
-      "FromMapFile": "assets/locations/tmx/11_TownLake_base.tmx"
+      "FromMapFile": "assets/locations/tmx/11_TownLake_0.tmx"
     },
     {
       "Logname": "Add_Custom_MountainTunnel",
       "Name": "Custom_MountainTunnel",
-      "FromMapFile": "assets/locations/tmx/12_MountainTunnel_base.tmx"
+      "FromMapFile": "assets/locations/tmx/12_MountainTunnel_0.tmx"
     },
     {
       "Logname": "Add_Custom_TheKnightForest",
       "Name": "Custom_TheKnightForest",
-      "FromMapFile": "assets/locations/tmx/13_TheKnightForest_base.tmx"
+      "FromMapFile": "assets/locations/tmx/13_TheKnightForest_0.tmx"
     },
     {
       "Logname": "Add_Custom_TheQueenForest",
       "Name": "Custom_TheQueenForest",
-      "FromMapFile": "assets/locations/tmx/14_TheQueenForest_base.tmx"
+      "FromMapFile": "assets/locations/tmx/14_TheQueenForest_0.tmx"
     },
     {
       "Logname": "Add_Custom_TheHeroesPath",
       "Name": "Custom_TheHeroesPath",
-      "FromMapFile": "assets/locations/tmx/15_TheHeroesPath_base.tmx"
+      "FromMapFile": "assets/locations/tmx/15_TheHeroesPath_0.tmx"
     }
     
   ],
   "DynamicTokens": [
+    {
+      "Name": "SwitcherSVE",
+      "Value": "0",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true,
+        "HasFlag | contains = nmTownUpgraded": false
+      }
+    },
+    {
+      "Name": "SwitcherSVE",
+      "Value": "1",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": false,
+        "HasFlag | contains = nmTownUpgraded": false
+      }
+    },
+    {
+      "Name": "SwitcherSVE",
+      "Value": "2",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true,
+        "HasFlag | contains = nmTownUpgraded": true
+      }
+    },
+    {
+      "Name": "SwitcherSVE",
+      "Value": "3",
+      "When": {
+        "HasMod | contains = FlashShifter.StardewValleyExpandedCP": false,
+        "HasFlag | contains = nmTownUpgraded": true
+      }
+    },
+    {
+      "Name": "Switcher",
+      "Value": "0",
+      "When": {
+        "HasFlag | contains = nmTownUpgraded": false
+      }
+    },
+    {
+      "Name": "Switcher",
+      "Value": "2",
+      "When": {
+        "HasFlag | contains = nmTownUpgraded": true
+      }
+    },
     {
       "Name": "CurrentSeason",
       "Value": "spring",

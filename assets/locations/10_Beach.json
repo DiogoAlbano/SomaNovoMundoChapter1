@@ -4,7 +4,7 @@
       "Logname": "Beach_base_day",
       "Action": "EditMap",
       "Target": "Maps/Beach",
-      "FromFile": "assets/locations/tmx/10_Beach_base.tmx"
+      "FromFile": "assets/locations/tmx/10_Beach_{{Switcher}}.tmx"
     },
     {
       "Logname": "Beach_Map_Properties",

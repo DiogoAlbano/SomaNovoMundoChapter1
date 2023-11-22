@@ -4,7 +4,7 @@
       "Logname": "Mountain_base_day",
       "Action": "EditMap",
       "Target": "Maps/Railroad",
-      "FromFile": "assets/locations/tmx/02_Railroad_base.tmx"
+      "FromFile": "assets/locations/tmx/02_Railroad_{{SwitcherSVE}}.tmx"
     },
     {
       "Logname": "Mountain_Map_Properties",

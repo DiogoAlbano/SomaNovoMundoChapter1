@@ -4,7 +4,7 @@
       "Logname": "Backwoods_base_day",
       "Action": "EditMap",
       "Target": "Maps/Backwoods",
-      "FromFile": "assets/locations/tmx/04_Backwoods_base.tmx"
+      "FromFile": "assets/locations/tmx/04_Backwoods_{{Switcher}}.tmx"
     },
     {
       "Logname": "Backwoods_GraveSite",

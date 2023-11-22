@@ -4,7 +4,7 @@
       "Logname": "Town_base",
       "Action": "EditMap",
       "Target": "Maps/Town",
-      "FromFile": "assets/locations/tmx/00_Town_base.tmx"
+      "FromFile": "assets/locations/tmx/00_Town_{{SwitcherSVE}}.tmx"
     },
     {
       "Logname": "Town_base_night",
@@ -13,7 +13,7 @@
       },
       "Action": "EditMap",
       "Target": "Maps/Town",
-      "FromFile": "assets/locations/tmx/00_Town_base_night.tmx",
+      "FromFile": "assets/locations/tmx/00_Town_night_{{SwitcherSVE}}.tmx",
       "When": {
         "Time": "{{Range: 2000, 2600}}"
       },

@@ -4,7 +4,7 @@
       "Logname": "BusStop_base_day",
       "Action": "EditMap",
       "Target": "Maps/BusStop",
-      "FromFile": "assets/locations/tmx/05_BusStop_base.tmx"
+      "FromFile": "assets/locations/tmx/05_BusStop_{{Switcher}}.tmx"
     },
     {
       "Logname": "BusStop_Map_Properties",

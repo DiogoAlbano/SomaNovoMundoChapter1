@@ -4,7 +4,7 @@
       "Logname": "Custom_GrandpasShedOutside_base_day",
       "Action": "EditMap",
       "Target": "Maps/Custom_GrandpasShedOutside",
-      "FromFile": "assets/locations/tmx/06_ShedArea_base.tmx",
+      "FromFile": "assets/locations/tmx/06_ShedArea_{{SwitcherSVE}}.tmx",
       "When": {
         "HasMod | contains = FlashShifter.StardewValleyExpandedCP": true
       }

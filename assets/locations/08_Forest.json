@@ -4,7 +4,7 @@
       "Logname": "Forest_base_day",
       "Action": "EditMap",
       "Target": "Maps/Forest",
-      "FromFile": "assets/locations/tmx/08_Forest_base.tmx"
+      "FromFile": "assets/locations/tmx/08_Forest_{{SwitcherSVE}}.tmx"
     },
     {
       "Logname": "Forest_Map_Properties",

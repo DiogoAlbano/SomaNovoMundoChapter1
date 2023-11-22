@@ -4,13 +4,13 @@
       "Logname": "Mountain_base_day",
       "Action": "EditMap",
       "Target": "Maps/Mountain",
-      "FromFile": "assets/locations/tmx/01_Mountain_base.tmx"
+      "FromFile": "assets/locations/tmx/01_Mountain_{{Switcher}}.tmx"
     },
     {
       "Logname": "Mountain_base_allow_passage",
       "Action": "EditMap",
       "Target": "Maps/Mountain",
-      "FromFile": "assets/locations/tmx/01_Mountain_base_allow_passage.tmx",
+      "FromFile": "assets/locations/tmx/01_Mountain_allow_passage.tmx",
       "ToArea": {
         "X": 0,
         "Y": 0,
@@ -25,7 +25,7 @@
       "Logname": "Mountain_base_remove_barrier",
       "Action": "EditMap",
       "Target": "Maps/Mountain",
-      "FromFile": "assets/locations/tmx/01_Mountain_base_remove_barrier.tmx",
+      "FromFile": "assets/locations/tmx/01_Mountain_remove_barrier.tmx",
       "ToArea": {
         "X": 45,
         "Y": 6,
@@ -43,7 +43,7 @@
       },
       "Action": "EditMap",
       "Target": "Maps/Mountain",
-      "FromFile": "assets/locations/tmx/01_Mountain_base_night.tmx",
+      "FromFile": "assets/locations/tmx/01_Mountain_night_{{Switcher}}.tmx",
       "When": {
         "Time": "{{Range: 2000, 2600}}"
       },
