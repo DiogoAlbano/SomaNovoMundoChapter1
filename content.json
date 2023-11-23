@@ -290,8 +290,13 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json, assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json, assets/locations/FE_npcroom.json,"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json,"
     },
+    {
+      "LogName": "Set_locations_data_5",
+      "Action": "Include",
+      "FromFile": "assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json, assets/locations/FE_npcroom.json,"
+    }
     
   ]
 }
