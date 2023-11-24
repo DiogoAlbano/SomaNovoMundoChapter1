@@ -44,6 +44,7 @@
     <Content Include="assets\locations\13_TheKnightForest.json" />
     <Content Include="assets\locations\15_TheHeroesPath.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
+    <Content Include="assets\locations\F2_ValleyTerrains.json" />
     <Content Include="assets\locations\F1_FarmShed.json" />
     <Content Include="assets\locations\FC_TransportData.json" />
     <Content Include="assets\locations\F0_TransportArea.json" />
@@ -75,6 +76,7 @@
     <Content Include="assets\locations\tmx\15_TheHeroesPath_0.tmx" />
     <Content Include="assets\locations\tmx\F0_TransportArea.tmx" />
     <Content Include="assets\locations\tmx\F1_FarmHouseStandard.tmx" />
+    <Content Include="assets\locations\tmx\F2_GrandPlain.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalChristmas.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalEggHunt.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFair.tmx" />

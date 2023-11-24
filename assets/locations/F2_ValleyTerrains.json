@@ -1,0 +1,39 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Maps/GrandPlain",
+      "FromFile": "assets/locations/tmx/F2_GrandPlain.tmx"
+    },
+    {
+      "Logname": "TrainArea_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/GrandPlain",
+      "MapProperties": {
+        "Warp": "{{GrandPlainWarps}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "somaraezel.SomaCore/grandPlainTilesheets",
+      "Entries": {
+        "tilesheets": {
+          "tilesheet0": "Maps/{{CurrentSeason}}_outdoorsTileSheet",
+          "tilesheet1": "Maps/paths",
+          "tilesheet2": "Maps/{{CurrentSeason}}_seasonal_nm_tilesheet",
+          "tilesheet3": "Maps/{{CurrentSeason}}_town",
+          "tilesheet4": null,
+          "tilesheet5": null,
+          "tilesheet6": null,
+          "tilesheet7": null,
+          "tilesheet8": null,
+          "tilesheet9": null,
+          "tilesheet10": null,
+          "tilesheet11": null,
+          "tilesheet12": null,
+          "tilesheet13": null
+        }
+      }
+    }
+  ]
+}

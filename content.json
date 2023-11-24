@@ -181,7 +181,7 @@
     },
     {
       "Name": "RailroadWarps",
-      "Value": "46 67 Mountain 3 2 47 67 Mountain 3 2 48 67 Mountain 3 2 49 67 Mountain 3 2 48 -1 Summit 11 28 1 67 Custom_MountainLongRoad 6 2 2 67 Custom_MountainLongRoad 6 2 3 67 Custom_MountainLongRoad 6 2 4 67 Custom_MountainLongRoad 6 2"
+      "Value": "46 67 Mountain 3 2 47 67 Mountain 3 2 48 67 Mountain 3 2 49 67 Mountain 3 2 48 -1 Summit 11 28 1 67 Custom_MountainLongRoad 6 2 2 67 Custom_MountainLongRoad 6 2 3 67 Custom_MountainLongRoad 6 2 4 67 Custom_MountainLongRoad 6 2 -1 62 GrandPlain 86 17 -1 63 GrandPlain 86 17 -1 64 GrandPlain 86 17 -1 65 GrandPlain 86 17"
     },
     {
       "Name": "MountainLongRoadWarps",
@@ -269,6 +269,10 @@
     {
       "Name": "MarketWarps",
       "Value": "1 -1 Custom_BeachRoad 2 27 2 -1 Custom_BeachRoad 2 27 3 -1 Custom_BeachRoad 2 27 4 -1 Custom_BeachRoad 2 27 -1 2 Custom_TownLake 37 24 -1 3 Custom_TownLake 37 24 -1 4 Custom_TownLake 37 24 -1 5 Custom_TownLake 37 24"
+    },
+    {
+      "Name": "GrandPlainWarps",
+      "Value": "89 16 Railroad 2 64 89 17 Railroad 2 64 89 18 Railroad 2 64 89 19 Railroad 2 64"
     }
   ],
   "Changes": [
@@ -290,7 +294,7 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json, assets/locations/F1_FarmShed.json"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json, assets/locations/F1_FarmShed.json, assets/locations/F2_ValleyTerrains.json"
     },
     {
       "LogName": "Set_locations_data_5",
