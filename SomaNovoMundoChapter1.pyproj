@@ -44,6 +44,7 @@
     <Content Include="assets\locations\13_TheKnightForest.json" />
     <Content Include="assets\locations\15_TheHeroesPath.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
+    <Content Include="assets\locations\F1_FarmShed.json" />
     <Content Include="assets\locations\FC_TransportData.json" />
     <Content Include="assets\locations\F0_TransportArea.json" />
     <Content Include="assets\locations\FE_npcroom.json" />
@@ -73,6 +74,7 @@
     <Content Include="assets\locations\tmx\14_TheQueenForest_winter_0.tmx" />
     <Content Include="assets\locations\tmx\15_TheHeroesPath_0.tmx" />
     <Content Include="assets\locations\tmx\F0_TransportArea.tmx" />
+    <Content Include="assets\locations\tmx\F1_FarmHouseStandard.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalChristmas.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalEggHunt.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalFair.tmx" />
@@ -84,6 +86,7 @@
     <Content Include="assets\locations\tmx\FD_FestivalSpiritEve.tmx" />
     <Content Include="assets\locations\tmx\FE_npcroom.tmx" />
     <Content Include="assets\locations\tmx\FF_testroom.tmx" />
+    <Content Include="assets\locations\tmx\House2.png" />
     <Content Include="content.json" />
     <Content Include="i18n\default.json" />
     <Content Include="manifest.json" />

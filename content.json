@@ -290,7 +290,7 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json,"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json, assets/locations/F1_FarmShed.json"
     },
     {
       "LogName": "Set_locations_data_5",
