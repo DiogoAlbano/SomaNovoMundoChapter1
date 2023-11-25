@@ -1,16 +1,6 @@
 {
   "Format": "1.29.3",
-  "CustomLocations": [
-    {
-      "Logname": "Add_testroom",
-      "Name": "Custom_nmtestroom",
-      "FromMapFile": "assets/locations/tmx/FF_testroom.tmx"
-    },
-    {
-      "Logname": "Add_npctroom",
-      "Name": "Custom_nmnpcroom",
-      "FromMapFile": "assets/locations/tmx/FE_npcroom.tmx"
-    },
+  "CustomLocations": [ //"CustomLocations": [],
     {
       "Logname": "Add_Custom_MountainLongRoad",
       "Name": "Custom_MountainLongRoad",
@@ -46,7 +36,7 @@
       "Name": "Custom_TheHeroesPath",
       "FromMapFile": "assets/locations/tmx/15_TheHeroesPath_0.tmx"
     }
-    
+
   ],
   "DynamicTokens": [
     {
@@ -294,12 +284,12 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F0_TransportArea.json, assets/locations/F1_FarmShed.json, assets/locations/F2_ValleyTerrains.json"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F1_FarmShed.json, assets/locations/F2_ValleyTerrains.json"
     },
     {
       "LogName": "Set_locations_data_5",
       "Action": "Include",
-      "FromFile": "assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json, assets/locations/FE_npcroom.json,"
+      "FromFile": "assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json"
     }
     
   ]

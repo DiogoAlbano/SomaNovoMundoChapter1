@@ -26,6 +26,10 @@
     {
       "UniqueID": "aedenthorn.ExtraMapLayers",
       "IsRequired": true
+    },
+    {
+      "UniqueID": "SuperAardvark.AntiSocial",
+      "IsRequired": true
     }
   ]
 }

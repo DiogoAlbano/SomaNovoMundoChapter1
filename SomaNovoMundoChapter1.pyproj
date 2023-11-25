@@ -47,8 +47,6 @@
     <Content Include="assets\locations\F2_ValleyTerrains.json" />
     <Content Include="assets\locations\F1_FarmShed.json" />
     <Content Include="assets\locations\FC_TransportData.json" />
-    <Content Include="assets\locations\F0_TransportArea.json" />
-    <Content Include="assets\locations\FE_npcroom.json" />
     <Content Include="assets\locations\FD_FestivalLocations.json" />
     <Content Include="assets\locations\tmx\00_Town_0.tmx" />
     <Content Include="assets\locations\tmx\00_Town_night_0.tmx" />
@@ -86,8 +84,6 @@
     <Content Include="assets\locations\tmx\FD_FestivalLuau.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalMarket.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalSpiritEve.tmx" />
-    <Content Include="assets\locations\tmx\FE_npcroom.tmx" />
-    <Content Include="assets\locations\tmx\FF_testroom.tmx" />
     <Content Include="assets\locations\tmx\House2.png" />
     <Content Include="content.json" />
     <Content Include="i18n\default.json" />
