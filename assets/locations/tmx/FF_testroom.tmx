@@ -19,7 +19,7 @@
  </layer>
  <layer id="9" name="Buildings" width="125" height="125">
   <data encoding="base64" compression="zlib">
-   eJztzjENADAIADCuveBfIDrmApKtVdAIftW5PWDaqe0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACvumeYAQw=
+   eJztzrERABAUBbCn0bL/gGoj2MK/I5kgCb9aI9nVCa7qM5mtegEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwIsOasQCDQ==
   </data>
  </layer>
  <layer id="15" name="Paths" width="125" height="125">
@@ -42,7 +42,7 @@
   <object id="301" name="TileData" x="32" y="32" width="16" height="16">
    <properties>
     <property name="Action" value=""/>
-    <property name="nm_Action" value="CarpenterMenu"/>
+    <property name="nm_Action" value="teste"/>
    </properties>
   </object>
  </objectgroup>
