@@ -15,14 +15,10 @@
       "Action": "EditMap",
       "Target": "Maps/House2",
       "MapProperties": {
-        //"DayTiles_asdf": "Buildings 3 1 15 Buildings 3 2 27 Back 3 4 51 Back 3 5 63",
-        "FloorIDs": "Floor",
-        //"NightTiles_asdf": "Buildings 3 1 144 Buildings 3 2 156 Back 3 4 53 Back 3 5 65",
-        //"ViewportFollowPlayer": true,
-        "WallIDs": "Wall",
-        //"asdf": false,
-        //"Warp": "12 21 Farm 21 22"
-        "Warp": "9 17 Farm 21 22"
+        "FloorIDs": "Floor, FloorB, FloorC, FloorD, FloorE, FloorF, FloorG, FloorH, FloorI",
+        "ViewportFollowPlayer": true,
+        "WallIDs": "Wall, WallB, WallC, WallD, WallE, WallF, WallG, WallH, WallI",
+        "Warp": "12 21 GrandPlain 21 22"
       }
     }
     
