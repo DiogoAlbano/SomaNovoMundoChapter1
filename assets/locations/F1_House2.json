@@ -2,18 +2,18 @@
   "Changes": [
     {
       "Action": "Load",
-      "Target": "Maps/House2",
+      "Target": "Maps/FarmHouseStandard",
       "FromFile": "assets/locations/tmx/F1_FarmHouseStandard.tmx"
     },
     {
       "Action": "Load",
-      "Target": "Buildings/House2",
+      "Target": "Buildings/FarmHouseStandard",
       "FromFile": "assets/locations/tmx/House2.png"
     },
     {
       "Logname": "TrainArea_Map_Properties",
       "Action": "EditMap",
-      "Target": "Maps/House2",
+      "Target": "Maps/FarmHouseStandard",
       "MapProperties": {
         "FloorIDs": "Floor, FloorB, FloorC, FloorD, FloorE, FloorF, FloorG, FloorH, FloorI",
         "ViewportFollowPlayer": true,
@@ -21,6 +21,5 @@
         "Warp": "12 21 GrandPlain 21 22"
       }
     }
-    
   ]
 }

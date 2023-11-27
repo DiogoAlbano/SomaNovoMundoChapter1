@@ -44,8 +44,8 @@
     <Content Include="assets\locations\13_TheKnightForest.json" />
     <Content Include="assets\locations\15_TheHeroesPath.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
+    <Content Include="assets\locations\F1_House2.json" />
     <Content Include="assets\locations\F2_ValleyTerrains.json" />
-    <Content Include="assets\locations\F1_FarmShed.json" />
     <Content Include="assets\locations\FC_TransportData.json" />
     <Content Include="assets\locations\FD_FestivalLocations.json" />
     <Content Include="assets\locations\tmx\00_Town_0.tmx" />

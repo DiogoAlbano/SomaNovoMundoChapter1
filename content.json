@@ -284,7 +284,7 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F1_FarmShed.json, assets/locations/F2_ValleyTerrains.json"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F1_House2.json, assets/locations/F2_ValleyTerrains.json"
     },
     {
       "LogName": "Set_locations_data_5",
