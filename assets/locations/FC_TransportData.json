@@ -89,6 +89,42 @@
           "description": "{{i18n: TravelDescription14}}"
         }
       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "somaraezel.SomaCore/Coordinates",
+      "Entries": {
+        "somaraezel.NovoMundoChapter1.destination15": {
+          "destination": "GrandPlain",
+          "X": 86,
+          "Y": 15,
+          "description": "{{i18n: TravelDescription15}}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "somaraezel.SomaCore/Coordinates",
+      "Entries": {
+        "somaraezel.NovoMundoChapter1.destination16": {
+          "destination": "DragonStones",
+          "X": 14,
+          "Y": 7,
+          "description": "{{i18n: TravelDescription16}}"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "somaraezel.SomaCore/Coordinates",
+      "Entries": {
+        "somaraezel.NovoMundoChapter1.destination17": {
+          "destination": "YobaTear",
+          "X": 14,
+          "Y": 7,
+          "description": "{{i18n: TravelDescription17}}"
+        }
+      }
     }
   ]
 }
