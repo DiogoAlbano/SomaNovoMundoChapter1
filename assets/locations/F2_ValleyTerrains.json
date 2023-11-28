@@ -6,7 +6,6 @@
       "FromFile": "assets/locations/tmx/F2_GrandPlain.tmx"
     },
     //{
-    //"Logname": "TrainArea_Map_Properties",
     //"Action": "EditMap",
     //"Target": "Maps/GrandPlain",
     //"MapProperties": {
@@ -37,7 +36,6 @@
       "FromFile": "assets/locations/tmx/F2_DragonStones.tmx"
     },
     {
-      "Logname": "TrainArea_Map_Properties",
       "Action": "EditMap",
       "Target": "Maps/DragonStones",
       "MapProperties": {
@@ -69,7 +67,6 @@
       "FromFile": "assets/locations/tmx/F2_YobaTear.tmx"
     },
     //{
-      //"Logname": "TrainArea_Map_Properties",
       //"Action": "EditMap",
       //"Target": "Maps/YobaTear",
       //"MapProperties": {

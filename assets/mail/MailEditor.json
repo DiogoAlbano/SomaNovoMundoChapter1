@@ -1,0 +1,13 @@
+{
+  "Changes": [
+    {
+      "Logname": "Edit_vanilla_mails",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "wizardJunimoNote": "{{i18n: Mail.wizardJunimoNote.Text}}%item quest 1 true %%[#]{{i18n: Mail.wizardJunimoNote.Title}}"
+      }
+    }
+    
+  ]
+}

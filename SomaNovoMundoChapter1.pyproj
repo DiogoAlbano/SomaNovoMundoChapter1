@@ -25,6 +25,7 @@
     <Folder Include="assets\" />
     <Folder Include="assets\locations\" />
     <Folder Include="assets\locations\tmx\" />
+    <Folder Include="assets\mail\" />
     <Folder Include="i18n\" />
   </ItemGroup>
   <ItemGroup>
@@ -44,6 +45,7 @@
     <Content Include="assets\locations\13_TheKnightForest.json" />
     <Content Include="assets\locations\15_TheHeroesPath.json" />
     <Content Include="assets\locations\14_TheQueenForest.json" />
+    <Content Include="assets\locations\16_FarmHouse.json" />
     <Content Include="assets\locations\F1_House2.json" />
     <Content Include="assets\locations\F2_ValleyTerrains.json" />
     <Content Include="assets\locations\FC_TransportData.json" />
@@ -87,6 +89,7 @@
     <Content Include="assets\locations\tmx\FD_FestivalMarket.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalSpiritEve.tmx" />
     <Content Include="assets\locations\tmx\House2.png" />
+    <Content Include="assets\mail\MailEditor.json" />
     <Content Include="content.json" />
     <Content Include="i18n\default.json" />
     <Content Include="manifest.json" />

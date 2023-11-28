@@ -280,12 +280,17 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/F1_House2.json, assets/locations/F2_ValleyTerrains.json"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/16_FarmHouse.json, assets/locations/F1_House2.json, assets/locations/F2_ValleyTerrains.json"
     },
     {
       "LogName": "Set_locations_data_5",
       "Action": "Include",
       "FromFile": "assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json"
+    },
+    {
+      "LogName": "Set_mail_data",
+      "Action": "Include",
+      "FromFile": "assets/mail/MailEditor.json"
     }
     
   ]
