@@ -94,10 +94,8 @@
     <Content Include="assets\locations\tmx\FD_FestivalMarket.tmx" />
     <Content Include="assets\locations\tmx\FD_FestivalSpiritEve.tmx" />
     <Content Include="assets\locations\tmx\House2.png" />
-    <Content Include="assets\editors\DataEditor.json" />
     <Content Include="assets\editors\loader.json" />
     <Content Include="content.json" />
-    <Content Include="i18n\default.json" />
     <Content Include="manifest.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
