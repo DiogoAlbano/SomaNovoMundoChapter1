@@ -1,0 +1,22 @@
+{
+  "Changes": [
+    {
+      "Logname": "Edit_mails",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "wizardJunimoNote": "{{i18n: Mail.wizardJunimoNote.Text}}%item quest 1 true %%[#]{{i18n: Mail.wizardJunimoNote.Title}}"
+      }
+    },
+    {
+      "Logname": "Edit_Quests",
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {
+        "26": "Basic/{{i18n: Quest.26.Title}}/{{i18n: Quest.26.Description}}/{{i18n: Quest.26.Objective}}/-1/-1/0/-1/true",
+        "172561701": "Basic/{{i18n: Quest.172561701.Title}}/{{i18n: Quest.172561701.Description}}/{{i18n: Quest.172561701.Objective}}/-1/-1/0/-1/true"
+      }
+    }
+    
+  ]
+}

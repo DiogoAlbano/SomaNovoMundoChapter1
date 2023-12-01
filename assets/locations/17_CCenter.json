@@ -1,0 +1,56 @@
+{
+  "Changes": [
+    {
+      "Logname": "Custom_CCenter_Map_Properties",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CCenter",
+      "MapProperties": {
+        "AmbientLight": "140 110 90",
+        "DayTiles": "Buildings 28 5 256 Buildings 28 6 288 Buildings 37 5 256 Buildings 37 6 288 Buildings 50 1 256 Buildings 50 2 288",
+        "NightTiles": "Buildings 28 5 1253 Buildings 28 6 1285 Buildings 37 5 1253 Buildings 37 6 1285 Buildings 50 1 1253 Buildings 50 2 1285",
+        "Warp": "{{CCenterWarps}}"
+      }
+    },
+    {
+      "Logname": "Custom_CCenter_Set_Junimo_Symbol",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_CCenter",
+      "FromFile": "assets/locations/tmx/17_CCenter_ShowSymbol.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 25,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      },
+      "When": {
+        "HasSeenEvent": "172560001"
+        //"HasSeenEvent | contains = xxx": false
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Logname": "Custom_CCenter",
+      "Action": "Load",
+      "Target": "Data/Events/Custom_CCenter",
+      "FromFile": "assets/editors/loader.json"
+    },
+    {
+      "Logname": "Custom_CCenter",
+      "Action": "EditData",
+      "Target": "Data/Events/Custom_CCenter",
+      "Entries": {
+        "172561701/H/e 172560001/x wizardJunimoNote true": "none",
+        "172561702/H/e 172561701": "junimoStarSong/32 14/farmer 32 22 0/removeQuest 26/addQuest 172561701/broadcastEvent/pause 1000/addTemporaryActor Grandpa 1 1 -1000 -1000 2 true/skippable/{{i18n: CCenterEvent001.01}}/pause 500/speed farmer 4/move farmer 0 -11 3/move farmer -7 0 0/showFrame farmer 15/pause 2000/faceDirection farmer 2/showFrame farmer 96/pause 1000/{{i18n: CCenterEvent001.02}}/pause 200/{{i18n: CCenterEvent001.03}}/emote farmer 40/pause 500/showFrame farmer 0/pause 500/{{i18n: CCenterEvent001.04}}/pause 500/faceDirection farmer 1/pause 500/{{i18n: CCenterEvent001.05}}/pause 500/move farmer 18 0 1/move farmer 0 2 1/move farmer 3 0 0/animate farmer true true 200 36 37 36 37 36 37 36 37 36 37/pause 500/{{i18n: CCenterEvent001.06}}/pause 500/{{i18n: CCenterEvent001.07}}/stopAnimation farmer/showFrame farmer 15/pause 500/{{i18n: CCenterEvent001.08}}/pause 500/showFrame farmer 0/faceDirection farmer 2/pause 500/{{i18n: CCenterEvent001.09}}/pause 500/{{i18n: CCenterEvent001.10}}/pause 500/{{i18n: CCenterEvent001.11}}/pause 500/{{i18n: CCenterEvent001.12}}/pause 1000/end position 46 13"
+      }
+    }
+  ]
+}
+
+
+//removeTile <x> <y> <layer>

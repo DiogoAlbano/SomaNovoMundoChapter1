@@ -40,7 +40,7 @@
   "TownEvent001.15": "speak Lewis \"Certo, vou para casa. Tenho que comer alguma coisa.\"",
   "TownEvent001.16": "speak Lewis \"Vou deixar o centro destrancado. Talvez alguém pegue esse rato quando tiver um tempo.\"",
   "TownEvent001.17": "message \"Que coisa estranha...\"",
-  "TownEvent001.18": "message \"O que era aquela criatura que eu vi?\"",
+  "TownEvent001.18": "message \"Melhor voltar aqui e investigar esse lugar.\"",
 
   "TownEvent002.01": "speak Lewis \"Eu já disse, a vila está sem recursos para executar reformas.$a\"",
   "TownEvent002.02": "speak Jodi \"A gente ouviu isso.$3#$b#O que estou tentando entender é o motivo dos nossos impostos aumentarem e nada retornar como melhorias para a vila.$3\"",
@@ -59,8 +59,34 @@
   "TownEvent002.15": "speak Jodi \"Bom, não adianta ficar aqui reclamando. Hora de voltar para casa.\"",
   "TownEvent002.16": "speak Caroline \"Também vou. Até mais, @.\"",
 
+  "CCenterEvent001.01": "message \"Vou dar uma boa olhada nesse lugar.\"",
+  "CCenterEvent001.02": "message \"Parece que um tipo de totem apareceu nessa cabana estranha.\"",
+  "CCenterEvent001.03": "message \"Tenho certeza que de que ele não estava aqui antes.\"",
+  "CCenterEvent001.04": "message \"Talvez no futuro eu encontre com alguém que possa dizer o que seria essa coisa.\"",
+  "CCenterEvent001.05": "message \"O que são aquelas mensagens naquela parede?\"",
+  "CCenterEvent001.06": "message \"Tem vários pedidos de ajuda aqui. E susgestões sobre como melhorar a vila.\"",
+  "CCenterEvent001.07": "message \"Espera... Tem uma sugestão do vovô aqui!\"",
+  "CCenterEvent001.08": "speak Grandpa \"Amigos do vale, penso que seria interessante se fosse criado um Conselho Comunitário.#$b#Assim seria possível realizar obras e manter as estruturas funcionando com arrecadação de recursos da própria comunidade.#$b#E também seria possível atuar administrativamente a favor da comunidade.#$b#Sem contar que seria possível ter acesso a qualquer tipo de informação administrativa que só o prefeito da vila tem acesso.\"",
+  "CCenterEvent001.09": "message \"Interessante...\"",
+  "CCenterEvent001.10": "message \"Vou falar com a Jodi sobre isso.\"",
+  "CCenterEvent001.11": "message \"Acho que já investiguei o suficiente.\"",
+  "CCenterEvent001.12": "message \"Qualquer coisa, volto aqui mais tarde.\"",
+
+
   "Mail.wizardJunimoNote.Text": "My sources tell me you've been poking around inside the old community center.^Why don't you pay me a visit?^My chambers are west of the forest lake, in the stone tower. I may have information concerning your... 'rat problem'.^   -M. Rasmodius, Wizard",
-  "Mail.wizardJunimoNote.Title": "Wizard's Summons"
+  "Mail.wizardJunimoNote.Title": "Wizard's Summons",
+
+
+  "Quest.26.Title": "Coisas Estranhas",
+  "Quest.26.Description": "Tem algo esquisito acontecendo no centro comunitário...",
+  "Quest.26.Objective": "Investigue o Centro Comunitário",
+
+  "Quest.172561701.Title": "Pedidos do Passado",
+  "Quest.172561701.Description": "Encontrei um pedido do vovô no centro comunitário. Seria bom falar com a Jodi sobre isso.",
+  "Quest.172561701.Objective": "Vá até a casa da Jodi"
+
+
+
 
 
 

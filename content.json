@@ -35,6 +35,11 @@
       "Logname": "Add_Custom_TheHeroesPath",
       "Name": "Custom_TheHeroesPath",
       "FromMapFile": "assets/locations/tmx/15_TheHeroesPath_0.tmx"
+    },
+    {
+      "Logname": "Add_Custom_CCenter",
+      "Name": "Custom_CCenter",
+      "FromMapFile": "assets/locations/tmx/17_CCenter.tmx"
     }
 
   ],
@@ -259,6 +264,10 @@
     {
       "Name": "MarketWarps",
       "Value": "1 -1 Custom_BeachRoad 2 27 2 -1 Custom_BeachRoad 2 27 3 -1 Custom_BeachRoad 2 27 4 -1 Custom_BeachRoad 2 27 -1 2 Custom_TownLake 37 24 -1 3 Custom_TownLake 37 24 -1 4 Custom_TownLake 37 24 -1 5 Custom_TownLake 37 24"
+    },
+    {
+      "Name": "CCenterWarps",
+      "Value": "32 24 Town 52 21 33 24 Town 53 21"
     }
   ],
   "Changes": [
@@ -280,17 +289,17 @@
     {
       "LogName": "Set_locations_data_4",
       "Action": "Include",
-      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/16_FarmHouse.json, assets/locations/F1_House2.json, assets/locations/F2_ValleyTerrains.json"
+      "FromFile": "assets/locations/15_TheHeroesPath.json, assets/locations/16_FarmHouse.json, assets/locations/17_CCenter.json," //assets/locations/18_SamHouse.json"
     },
     {
-      "LogName": "Set_locations_data_5",
+      "LogName": "Set_locations_data_99",
       "Action": "Include",
-      "FromFile": "assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json"
+      "FromFile": "assets/locations/F1_House2.json, assets/locations/F2_ValleyTerrains.json, assets/locations/FC_TransportData.json, assets/locations/FD_FestivalLocations.json"
     },
     {
-      "LogName": "Set_mail_data",
+      "LogName": "Set_editors",
       "Action": "Include",
-      "FromFile": "assets/mail/MailEditor.json"
+      "FromFile": "assets/editors/DataEditor.json,"
     }
     
   ]
